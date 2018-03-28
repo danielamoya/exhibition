@@ -19,3 +19,12 @@ p {
 .intro {
 	background-color: #E88FBF;
 }
+.tab {
+    overflow: hidden;
+    border: 1px solid #5d8aa8;
+    background-color: #5d8aa8;
+}
+.intro {
+				background-color:#E88F92;
+}
+	
