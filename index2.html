@@ -9,16 +9,6 @@
 					<button class="tablinks" onclick="openCity(event, 'Project 1')">Project 1</button>
 					<button class="tablinks" onclick="openCity(event, 'Project 2')">Project 2</button>
 				</div>
-				<div id="Project 1" class="tabcontent" style="width:2000px;height:800px;overflow:scroll;background-color:#E8B98F;">
-						<center><h1 class="cell">Introduction Project Page:</h1></center>
-						<center><img src="images/codeoverladyface.jpg" width="550" height="450" rel="ladywithcode"></center>
-						<center><h1 class="cell">Project Info:</h1></center>
-						<br>
-						<p class="cell">A Timely Solution is a grand project with which we work with many alternating classes such as cascading stylesheet, multimedia art collages, and the industrial revolution. It is a hands on experience in exploring the past, making media collages to represent them through poems, and making a website that proceeds to expand on the topics. To learn more about the mixed media collages and poems we did on the industrial revolution and on media to, please look into Noel's class for the following. If you would like to see what we did and learned in our interviews about our subject's life so far, please check Daramola's class for the following. Click on the following and labeled links below to navigate through topics on the following pages and to learn more about the topics and what we've done so far in the semester.</p>
-						<img src="images/sketchyredarrowspointingdown.gif" width= "100" height="50" rel="red-sketchy-arrows">
-						<a href="noel2.html"><h2>Noel's Project Info</h2></a><a href="daramola2.html"><h2>Daramola's Project Info</h2></a>
-				</div>
-				
 				<div id="Project 2" class="tabcontent" style="width:2000px;height:800px;overflow:scroll;background-color:#E8B98F;">
 						<center><h1 class="cell">Introduction Project Page:</h1></center>
 						<center><img src="images/codeoverladyface.jpg" width="550" height="450" rel="ladywithcode"></center>
@@ -29,7 +19,7 @@
 						<a href="noel2.html"><h2>Noel's Project Info</h2></a><a href="daramola2.html"><h2>Daramola's Project Info</h2></a>
 				</div>
 				<script>
-					function openCity(evt, cityName) {
+					function openProject(evt, projectName) {
 					var i, tabcontent, tablinks;
 					tabcontent = document.getElementsByClassName("tabcontent");
 					for (i = 0; i < tabcontent.length; i++) {
@@ -39,7 +29,7 @@
 					for (i = 0; i < tablinks.length; i++) {
 					tablinks[i].className = tablinks[i].className.replace(" active", "");
 					}
-					document.getElementById(cityName).style.display = "block";
+					document.getElementById(projectName).style.display = "block";
 					evt.currentTarget.className += " active";
 					}
 				</script>
