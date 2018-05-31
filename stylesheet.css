@@ -1,29 +1,92 @@
-body {
-	text-align: center;
-	background-color: #DAF7A6;
-	font-family:"Calibri"
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
 }
-div {
-	text-align: left;
-	color: #000000;
-	font-family: "Helvetica";
-	font-size: "20px"
+.headerbody {
+	background-color: #9C6868;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+.fizzyleader {
+	background-color: #D58986;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	grid-column-end: span 1;
+	text-align: justify;
+}
+.fizzyinfo {
+	background-color: #D58986;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	grid-column-end: span 3;
+	text-align:justify;
+}
+.circyinfo {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start:5;
+	grid-row-end: span 1;
+	
+}
+.circyleader {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 4;
+	grid-column-end: span 1;
+}
+.sidenote {
+	background-color: #9C6868;
+	padding: 1em;
+	text-align: center;
+	grid-column-start: 1;
+	grid-row-end: span 8;
+	grid-column-end: span 4;
 }
 p {
-	text-align: center;
-	color: #000000;
-	font-family: "Times New Roman";
-	font-size:"20px";
+	font-family: "Calibri";
+	font-size: 10px;
 }
-.cell {cursor: cell;}
-.intro {
-	background-color: #FFC300;
+body {
+	background-image: url("images/bg.jpg");
+	border: 8px solid;
+	border-color: #CCC3E2 #4D3E72;
 }
-.tab {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    border: 1px solid #5d8aa8;
-    background-color: #5d8aa8;
+    background-color: #BEAACA;
+	
 }
-.intro {
-				background-color: skyblue;
+
+li {
+	display: center;
+    float: left;
+	border-right: 5px solid;
+	border-color: #563627;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #715D7D;
+}
+img {
+	border: 5px solid;
+	border-color: #CCC3E2 #4D3E72
 }

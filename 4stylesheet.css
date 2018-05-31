@@ -1,0 +1,125 @@
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+.headerbody {
+	background-color: #AEA5C3;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+.goodleader {
+	background-color: #986563;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: span 5;
+	grid-column-end: span 1;
+	text-align: justify;
+}
+.goodleaderpoll {
+	background-color: #986563;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	grid-row-end: span 5;
+	grid-column-end: span 3;
+	text-align:justify;
+}
+.betterways {
+	background-color: #986563;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 7;
+	grid-row-end: span 1;
+	
+}
+.betterwayspoll {
+	background-color: #986563;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 4;
+}
+.betterteampoll {
+	background-color: #637E98;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 8;
+	grid-row-end: span 1;
+	
+}
+.betterteam {
+	background-color: #637E98;
+	padding: 1em;
+	grid-column-start: 4;
+	grid-column-end: span 1;
+}
+.agreewith {
+	background-color: #986563;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 10;
+	grid-row-end: span 2;
+	
+}
+.agreewithpoll {
+	background-color: #986563;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 4;
+	grid-row-start: 10;
+	grid-row-end: span 2;
+	
+}
+.sidenote {
+	background-color: #AEA5C3;
+	padding: 1em;
+	text-align: center;
+	grid-column-start: 1;
+	grid-row-end: span 8;
+	grid-column-end: span 4;
+}
+p {
+	font-family: "Calibri";
+	font-size: 10px;
+}
+body {
+	background-image: url("images/purplecrystals.png");
+	border: 8px solid;
+	border-color: #CCC3E2 #4D3E72;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B57693;
+	
+}
+
+li {
+	display: center;
+    float: left;
+	border-right: 5px solid;
+	border-color: #E49EBE;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #892A56;
+}
+img {
+	border: 5px solid;
+	border-color: #CCC3E2 #4D3E72
+}
